@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <title>
+        Introduce bot
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    
+    <style>
+        :root {
+            --introduce-height: 80vh;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="introduce.css">
+    
+    <script src="https://unpkg.com/@babel/polyfill@7.6.0/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <header class="text-center">
+        <h1 class="xl reset-margin large-margin">IntroduceBot</h1>
+        <p>
+            IntroduceBot는 선택 기반의 챗봇입니다.<br />사용된 언어는 Vanilla JS 입니다.
+        </p>
+        <p>
+            <a href="https://github.com/daekyeongp/introducebot">GitHub</a>
+        </p>
+    </header>
+
+    <main id="main">
+        <div id="introduce-container">
+            <div id="introduce-inner">
+                <div id="introduce"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="conversation.js"></script>
+    <script type="text/babel" data-presets="es2015,es2016,es2017" src="introduce.js"></script>
+
+</body></html>
